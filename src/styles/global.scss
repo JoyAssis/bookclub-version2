@@ -1,7 +1,14 @@
 $primary-color: #f4f4f4;
 $secundary-color:#333;
 $button-color:#9B9B7A;
-
+*{
+  font-weight: normal;
+  a{
+    text-decoration: none;
+    color: $primary-color;
+    cursor:default;
+  }
+}
 body{
   font-family: 'Fenix', sans-serif;
   background-color: $secundary-color;
@@ -13,7 +20,6 @@ header{
   justify-content: space-between;
   padding: 1rem;
   div{
-    border: red solid ;
     width: 30%;
     display: flex;
     justify-content: space-evenly;
@@ -24,6 +30,13 @@ header{
       font-size: 25px;
       background-color: $button-color;
       font-family: 'Fenix', sans-serif;
+      border-radius: 15px;
     }
   }
+}
+footer{
+  line-height: 0px;
+  border-top: solid 1px;
+  margin-top: 2rem;
+  padding:1rem 1rem ;
 }
