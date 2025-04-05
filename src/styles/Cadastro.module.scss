@@ -1,0 +1,48 @@
+section{
+    display: flex;
+}
+.banner{
+    width: 50%;
+    height: 75vh;
+}
+img{
+    width: 100%;
+}
+.formContainer{
+    color:#000;
+    width: 50%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EFD0A9;
+    margin-bottom: 0px;
+
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        gap:10px;
+
+        input{
+            width: 20vw;
+            height: 30px;
+            border: solid #D08C60 1px;
+            padding-left: 10px;
+        }
+        button{
+            width: 100%;
+            height: 50px;
+            border-radius: 10px;
+            border:transparent;
+            background-color: #D08C60;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: #9B9B7A;
+            color: #000;
+        }
+    }
+}

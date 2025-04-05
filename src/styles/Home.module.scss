@@ -1,11 +1,15 @@
 .mainBox{
-
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  height: 100%;
+  justify-content: space-evenly;
+  height: 70vh;
+  width: 100%;
 }
 .content{
   font-size: 64px;
-  width: 30%;
+  width: 50%;
+}
+.img{
+  width: 50%;
+  height: 100%;
 }

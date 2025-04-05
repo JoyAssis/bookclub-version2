@@ -16,6 +16,7 @@ const App = () => {
           <Route path="/cadastro" element={<Cadastro />} />
           <Route path="/blog" element={<Blog />} />
         </Routes>
+        {location.pathname === "/login" || location.pathname === "/cadastro" && (<Header/>)}
       </Router>
       <footer>
         <p>copyright</p>
