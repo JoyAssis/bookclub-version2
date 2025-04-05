@@ -1,17 +1,24 @@
-section{
+section {
     display: flex;
+
+    a {
+        color: #d87511;
+    }
 }
-.banner{
+
+.banner {
     width: 50%;
-    height: 75vh;
+    height: 85vh;
 }
-img{
+
+img {
     width: 100%;
 }
-.formContainer{
-    color:#000;
+
+.formContainer {
+    color: #000;
     width: 50%;
-    height: 75vh;
+    height: 85vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,30 +26,58 @@ img{
     background-color: #EFD0A9;
     margin-bottom: 0px;
 
-    form{
+    form {
         display: flex;
         flex-direction: column;
-        justify-content:flex-start;
-        gap:10px;
+        justify-content: flex-start;
+        gap: 10px;
 
-        input{
+        input {
             width: 20vw;
             height: 30px;
             border: solid #D08C60 1px;
             padding-left: 10px;
         }
-        button{
+
+        button {
             width: 100%;
             height: 50px;
             border-radius: 10px;
-            border:transparent;
+            border: transparent;
             background-color: #D08C60;
             font-size: 20px;
             cursor: pointer;
         }
-        button:hover{
+
+        button:hover {
             background-color: #9B9B7A;
             color: #000;
         }
+    }
+}
+
+.home {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+}
+
+.casa {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin: 30px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+        background-color: #9B9B7A;
+        border-radius: 50%;
     }
 }

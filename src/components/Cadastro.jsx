@@ -1,4 +1,5 @@
 import Page from "../assets/paper2.png"
+import Home from "../assets/home.png"
 import styles from "../styles/Cadastro.module.scss"
 
 const Cadastro = () => {
@@ -10,6 +11,7 @@ const Cadastro = () => {
         <img src={Page} alt="folha rasgada" />
       </div>
       <div className={styles.formContainer}>
+        <a href="/" className={styles.casa}><img src={Home} alt="home" className={styles.home} /></a>
         <h2>Crie sua conta</h2>
         <form>
           <label htmlFor="name">Nome completo</label>

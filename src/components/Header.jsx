@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 const Header = () => {
+  const location = useLocation();
   return (
-    <div>
+    location.pathname === "/" && (<div>
       <header>
         <Link to="/">
         <h1>CLUBE DO LIVRO</h1>
@@ -16,7 +18,7 @@ const Header = () => {
           </Link>
         </div>
       </header>
-    </div>
+    </div>)
   );
 };    
 
