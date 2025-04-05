@@ -3,6 +3,9 @@ $secundary-color:#333;
 $button-color:#9B9B7A;
 *{
   font-weight: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   a{
     text-decoration: none;
     color: $primary-color;
@@ -37,5 +40,8 @@ header{
 footer{
   line-height: 0px;
   border-top: solid 1px;
-  padding:1rem 1rem ;
+  p{
+    padding:2em;
+  }
+ 
 }

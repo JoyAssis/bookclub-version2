@@ -18,8 +18,7 @@ const App = () => {
         </Routes>
       </Router>
       <footer>
-        <p>copyright</p>
-        <p>Joy Assis</p>
+        <p>Copyright - Joy Assis | Todos os direitos reservados</p>
       </footer>
     </>
   );

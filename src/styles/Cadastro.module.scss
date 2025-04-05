@@ -1,14 +1,33 @@
 section {
     display: flex;
-
     a {
         color: #d87511;
+    }
+    .containerLinks {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 5vh;
     }
 }
 
 .banner {
     width: 50%;
     height: 85vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+
+    h1{
+        margin-left: 1%;
+        font-size: 5em;
+    }
+    p{
+        margin-left: 2%;
+        font-size: 2em;
+    }
 }
 
 img {
@@ -24,17 +43,20 @@ img {
     justify-content: center;
     align-items: center;
     background-color: #EFD0A9;
-    margin-bottom: 0px;
+    h2 {
+            font-size: 3em;
+        }
 
     form {
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
-        gap: 10px;
+        gap:10px;
+        justify-content: center;
+        height: 50vh;
 
         input {
             width: 20vw;
-            height: 30px;
+            height: 50px;
             border: solid #D08C60 1px;
             padding-left: 10px;
         }

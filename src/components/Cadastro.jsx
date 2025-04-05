@@ -7,7 +7,7 @@ const Cadastro = () => {
     <section className={styles.section}>
       <div className={styles.banner}>
         <h1>Clube do livro</h1>
-        <p>A Sociedade Secreta Das Folhas Amarelas</p>
+        <p>Editora BLB</p>
         <img src={Page} alt="folha rasgada" />
       </div>
       <div className={styles.formContainer}>
@@ -24,15 +24,14 @@ const Cadastro = () => {
           <input type="password" name="senha" placeholder="Senha" />
           <button type="submit">Criar conta</button>
         </form>
-        <p>
-          Já tem uma conta? <a href="/login">Entre aqui</a>
-        </p>
-        <p>
-          <a href="/recuperar-senha">Esqueci minha senha</a>
-        </p>
-        <p>
-          Ao se cadastrar, você concorda com os nossos <a href="/termos">Termos de Uso</a> e <a href="/privacidade">Política de Privacidade</a>.
-        </p>
+        <div className={styles.containerLinks}>
+          <p>
+            Já tem uma conta? <a href="/login">Entre aqui</a>
+          </p>
+          <p>
+            Ao se cadastrar, você concorda com os nossos <a href="/termos">Termos de Uso</a> e <a href="/privacidade">Política de Privacidade</a>.
+          </p>
+        </div>
       </div>
     </section>
   )
